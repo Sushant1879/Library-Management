@@ -1,0 +1,65 @@
+body {
+    background-color: black;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.title {
+    color: white;
+    font-size: 1.6rem;
+}
+
+.container{
+    padding: 15px;
+}
+
+.container,
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.book_label {
+    color: white;
+    margin-right: 3%
+}
+
+.issued_label {
+    color: white;
+    margin-right: 4%;
+}
+
+.grid-1 {
+    padding: 25px 0px 25px 0px;
+}
+
+.button-grid {
+    padding: 25px 0px 25px 0px;
+}
+
+.issue-button {
+    border: 1px solid white;
+    background: white;
+    width: 394px;
+    height: 30px;
+}
+
+#issued_input,
+#book_name_input {
+    height: 25px;
+    width: 22%;
+    background: black;
+    border: 1px solid white;
+    color: white;
+}
+
+.table-wrapper, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    color: white;
+    padding: 12px 55px 12px 55px;
+  }
+
+  .book-status{
+    color: red;
+  }
